@@ -1,3 +1,3 @@
-# QDCGAN-PYNQ
-Quantized deconvolution GANs on PYNQ.
-The code will be made public after the paper is published. Stay tuned ^_^
+# Quantized DCGANs on Xilinx SOC-FPGAs
+
+### Have a look and the README under the `PyTorch` folder for training, `Hardware` for the synthesis of the accelerator and `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.

@@ -1,0 +1,49 @@
+FROM nvcr.io/nvidia/l4t-pytorch:r32.6.1-pth1.9-py3
+
+ARG GID
+ARG GNAME
+ARG UNAME
+ARG UID
+ARG PASSWD
+
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get -y install curl tmux htop vim sudo git rsync nano lsb-release \ 
+    wget build-essential
+
+
+RUN apt-get install -y libglib2.0-0
+RUN apt-get install -y libsm6
+RUN apt-get install -y libxext6
+RUN apt-get install -y libxrender-dev
+RUN apt-get install -y zsh
+RUN apt-get install -y sshpass
+RUN apt-get install -y unzip
+RUN apt-get install -y zip
+RUN apt-get -y -f install
+RUN apt-get autoclean && apt-get autoremove && rm -rf /var/lib/apt/lists/*
+RUN echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
+
+
+# Create the user account
+RUN mkdir /home/$UNAME
+RUN groupadd -g $GID $GNAME
+RUN useradd -M -u $UID $UNAME -g $GNAME
+RUN usermod -aG sudo $UNAME
+RUN echo "$UNAME:$PASSWD" | chpasswd
+RUN echo "root:$PASSWD" | chpasswd
+RUN chown -R $UNAME:$GNAME /home/$UNAME
+
+WORKDIR /home/$UNAME
+
+# password less sudo
+RUN echo "%sudo ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+RUN pip3 install matplotlib
+RUN pip3 install brevitas
+
+USER $UNAME
+
+CMD ["bash"]
+
+
