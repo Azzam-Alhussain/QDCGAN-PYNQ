@@ -7,7 +7,7 @@ if os.environ['BOARD'] == 'Ultra96':
 elif os.environ['BOARD'] == 'ZCU104':
     PLATFORM="zcu104"
     import matplotlib
-    matplotlib.use('Agg')
+    # matplotlib.use('Agg')
 else:
     raise RuntimeError("Board not supported")
 import matplotlib.pyplot as plt

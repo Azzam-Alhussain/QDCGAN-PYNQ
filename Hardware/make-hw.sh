@@ -55,7 +55,7 @@ if [[ ("$MODE" == "h") || ("$MODE" == "a")  ]]; then
   cd $HLS_OUT_DIR/..
 	PARAMS="$QDCGAN_ROOT/PyTorch/export/$NETWORK"
 	TEST_INPUT="$QDCGAN_ROOT/PyTorch/test_image/hls/input.txt"
-  if [[ ("$NETWORK" == "MNIST*") ]]; then
+  if [[ ("$NETWORK" == *"MNIST"*) ]]; then
     EXT="png"
   else
     EXT="txt"
