@@ -40,3 +40,14 @@ The manuscript text is currently accepted, and will be published soon as a confe
 ## Citation
 
 **TBD**
+
+## Acknowledgments
+
+Inspiration, code snippets, references, etc.
+
+* [FINN: A Framework for Fast, Scalable Binarized Neural Network Inference](https://xilinx.github.io/finn/)
+* [Xilinx/finn-hlslib](https://github.com/Xilinx/finn-hlslib)
+* [Xilinx/brevitas](https://github.com/Xilinx/brevitas)
+* [Xilinx/PYNQ](https://github.com/Xilinx/PYNQ)
+* [Xilinx/BNN-PYNQ](https://github.com/Xilinx/BNN-PYNQ)
+* [A Competitive Edge: Can FPGAs Beat GPUs at DCNN Inference Acceleration in Resource-Limited Edge Computing Applications?](https://arxiv.org/pdf/2102.00294v2.pdf)
