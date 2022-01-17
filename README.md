@@ -2,6 +2,7 @@
 ### [Azzam Alhussain](http://azzam.page/), [Mingjie Lin](https://www.ece.ucf.edu/person/mingjie-lin/)
 ___
 This is an official implementation of FPGA framework and FreeNet in our TGRS 2020 paper ["FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification"](https://ieeexplore.ieee.org/document/9007624).
+
 **SkyNet is published as a conference paper at [Conference on Machine Learning and Systems (MLSys)](https://mlsys.org/Conferences/2020/Schedule?type=Oral).**
 
 
