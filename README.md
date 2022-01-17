@@ -3,6 +3,8 @@
 ___
 **This is the official HW/SW Co-design efficient training and implementation of quantized deconvolution GAN (QDCGAN) on PYNQ FPGAs and Jetson nano frameworks that is accepted and will be published soon as a conference paper in the IEEE Xplore Digital Library as [Hardware-Efficient Deconvolution-Based GAN for Edge Computing](https://ieeexplore.ieee.org/Xplore/home.jsp), and will be presented in March 2022 at the [56th Annual Conference on Information Sciences and Systems (CISS)](https://ee-ciss.princeton.edu/).**
 
+## Description
 
+This paper proposed a HW/SW co-design approach for training quantized deconvolution GAN (QDCGAN) implemented on PYNQ FPGAs using a scalable streaming dataflow architecture capable of achieving higher throughput versus resource utilization trade-off. The developed accelerator is based on an efficient deconvolution engine that offers high parallelism with respect to PE & SIMD scaling factors for GAN-based edge computing. Furthermore, MNIST & celebA datasets, and network scalability were analyzed for low-power inference on resource-constrained platforms. Lastly, an end-to-end open-source framework is provided for training, implementation, state-space exploration, and scaling the inference using Vivado high-level synthesis for Xilinx SoC-FPGAs, and a comparison testbed with Jetson Nano.
 
 ### Have a look and the README under the `PyTorch` folder for training, `Hardware` for the synthesis of the accelerator, and `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.
