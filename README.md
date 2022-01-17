@@ -11,7 +11,7 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 - Developed a scalable inference accelerator for transpose convolution operation for quantized DCGAN (QDCGAN) on top of [FINN by Xilinx](https://xilinx.github.io/finn/). 
 - Provided a complete open-source framework (training to implementation stack) for investigating the effect of variable bit widths for weights and activations. 
 - Demonstrated that the weights and activations influence performance measurement, resource utilization, throughput, and the quality of the generated images.
-- The community can build upon our code, explore, and search efficient implementation of SRGAN on low-power FPGAs which are considered as a solution for a wide range of medical     and microscopic imaging applications.
+- The community can build upon our code, explore, and search efficient implementation of SRGAN on low-power FPGAs which are considered as a solution for a wide range of medical   and microscopic imaging applications.
 
 ## Getting Started
 
@@ -22,5 +22,7 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 * Pytorch 1.4.0+
 * Vivado 2019.3+ 
 * PYNQ framework 2.6
+
+
 
 ### Have a look and the README under the `PyTorch` folder for training, `Hardware` for the synthesis of the accelerator, and `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.
