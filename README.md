@@ -24,7 +24,7 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 * PYNQ framework 2.6
 * Xilinx SoC-FPGAs Pynq supported (ex: Ultra96 & ZCU104)
 
-### HW/SW Training & implementation
+### HW/SW training & implementation
 
 - `PyTorch` folder for training.
 - `Hardware` folder for the synthesis of the accelerator.
