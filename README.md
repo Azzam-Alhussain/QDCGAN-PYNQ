@@ -36,3 +36,7 @@ All source code is made available under a BSD 3-clause license. You can freely u
 to the authors. See `LICENSE.md` for the full license text.
 
 The manuscript text is currently accepted, and will be published soon as a conference paper in the IEEE Xplore Digital Library.
+
+### Citation
+
+**TBD**
