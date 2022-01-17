@@ -24,6 +24,11 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 * PYNQ framework 2.6
 * Xilinx SoC-FPGAs Pynq supported (ex: Ultra96 & ZCU104)
 
+## License
 
+All source code is made available under a BSD 3-clause license. You can freely use and modify the code, without warranty, so long as you provide attribution
+to the authors. See `LICENSE.md` for the full license text.
+
+The manuscript text is currently accepted, and will be published soon as a conference paper in the IEEE Xplore Digital Library.
 
 ### Have a look and the README under the `PyTorch` folder for training, `Hardware` for the synthesis of the accelerator, and `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.
