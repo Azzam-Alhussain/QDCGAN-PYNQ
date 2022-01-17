@@ -13,6 +13,5 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 - Demonstrated that the weights and activations influence performance measurement, resource utilization, throughput, and the quality of the generated images.
 - The community can build upon our code, explore, and search efficient implementation of SRGAN on low-power FPGAs which are considered as a solution for a wide range of medical     and microscopic imaging applications.
 
-Lastly, an end-to-end open-source framework is provided for training, implementation, state-space exploration, and scaling the inference using Vivado high-level synthesis for Xilinx SoC-FPGAs, and a comparison testbed with Jetson Nano.
 
 ### Have a look and the README under the `PyTorch` folder for training, `Hardware` for the synthesis of the accelerator, and `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.
