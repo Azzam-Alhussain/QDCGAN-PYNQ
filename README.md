@@ -22,6 +22,7 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 * Pytorch 1.4.0+
 * Vivado 2019.3+ 
 * PYNQ framework 2.6
+* Xilinx SoC-FPGAs Pynq supported (ex: Ultra96 & ZCU104)
 
 
 
