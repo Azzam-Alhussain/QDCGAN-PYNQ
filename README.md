@@ -27,8 +27,8 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 ### HW/SW Training & implementation
 
 - `PyTorch` folder for training.
-- `Hardware` for the synthesis of the accelerator.
-- `Hardware/Pynq/` for deployment on xilinx SOC-FPGAs having pynq linux.
+- `Hardware` folder for the synthesis of the accelerator.
+- `Hardware/Pynq/` folder for deployment on xilinx SOC-FPGAs having pynq linux.
 
 ## License
 
