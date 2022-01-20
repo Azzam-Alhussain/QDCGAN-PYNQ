@@ -41,7 +41,7 @@ The manuscript text is currently accepted, and will be published soon as a confe
 
 Please use the below citation till it updated from IEEE Xplore Digital Library,
 
-Alhussain, A. and Lin, M, "Hardware-Efficient Deconvolution-Based GAN for Edge Computing," in 56th Annual Conference on Information Sciences and Systems (CISS) 2022, Virtual IEEE conference, March 9-11, 2022. pp.1-5, Accessed on: Jan. 19, 2022. [Online]. Available: https://arxiv.org/abs/2201.06878 
+**Alhussain, A. and Lin, M, "Hardware-Efficient Deconvolution-Based GAN for Edge Computing," in 56th Annual Conference on Information Sciences and Systems (CISS) 2022, Virtual IEEE conference, March 9-11, 2022. pp.1-5, Accessed on: Jan. 19, 2022. [Online]. Available: https://arxiv.org/abs/2201.06878**
 
 ## Acknowledgments
 
