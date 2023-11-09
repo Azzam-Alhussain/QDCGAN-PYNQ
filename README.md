@@ -35,13 +35,9 @@ This paper proposed a HW/SW co-design approach for training quantized deconvolut
 All source code is made available under a BSD 3-clause license. You can freely use and modify the code, without warranty, so long as you provide attribution
 to the authors. See `LICENSE.md` for the full license text.
 
-The manuscript text is currently accepted, and will be published soon as a conference paper in the IEEE Xplore Digital Library.
-
 ## Citation
 
-Please use the below citation till it updated from IEEE Xplore Digital Library,
-
-**Alhussain, A. and Lin, M, "Hardware-Efficient Deconvolution-Based GAN for Edge Computing," in 56th Annual Conference on Information Sciences and Systems (CISS) 2022, Virtual IEEE conference, March 9-11, 2022. pp.1-5, Accessed on: Jan. 19, 2022. [Online]. Available: https://arxiv.org/abs/2201.06878**
+**A. Alhussain and M. Lin, "Hardware-Efficient Deconvolution-Based GAN for Edge Computing," 2022 56th Annual Conference on Information Sciences and Systems (CISS), Princeton, NJ, USA, 2022, pp. 172-176, doi: 10.1109/CISS53076.2022.9751185**
 
 ## Acknowledgments
 
